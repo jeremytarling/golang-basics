@@ -1,6 +1,5 @@
 package main
 
-
 import "fmt"
 import "sort"
 
@@ -31,13 +30,7 @@ func main() {
 
 // map of tarot major arcana properties */
 var majorArcana = map[int]map[string]string {
-		0 : map[string]string{
-		"name":"The Fool",
-		"hebrew letter":"Aleph",
-		"hebrew letter value":"1",
-		"hebrew letter meaning":"Ox",
-		"astrological association":"Air",
-	},
+
 		1 : map[string]string{
 		"name":"The Magician",
 		"hebrew letter":"Beth",
